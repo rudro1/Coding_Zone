@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Blog from "./blog/Blog";
-const Blogs = () => {
+const Blogs = ({handelerbookmark}) => {
 const [blogs,setblogs]=useState([]);
 useEffect(()=>{
 fetch('blogs.json')
@@ -16,14 +16,14 @@ fetch('blogs.json')
 // console.log(blogs);
 
     return (
-        <div className="w-2/3">
-            <h1>blog section {blogs.length}</h1>
-            <div>
+        <div className="md:w-2/3 ">
+          
+            <div className="">
 
-{blogs.map((blog)=>{
+{blogs.map((blog,idx)=>{
   
 
-return <Blog  key={blog.id} blog={blog}></Blog>
+return <Blog  key={idx} blog={blog} handelerbookmark={handelerbookmark} ></Blog>
 
 })}
             </div>
