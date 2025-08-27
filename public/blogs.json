@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
+    "title": "The Future of Artificial Intelligence",
+    "author": "John Doe",
+    "author_img": "https://i.pravatar.cc/150?img=11",
+    "hashtags": ["#AI", "#MachineLearning", "#FutureTech"],
+    "reading_time": 7,
+    "uploaded_date": "2025-08-20"
+  },
+  {
+    "id": 2,
+    "cover_image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+    "title": "Exploring the Power of Cloud Computing",
+    "author": "Sophia Lee",
+    "author_img": "https://i.pravatar.cc/150?img=12",
+    "hashtags": ["#Cloud", "#AWS", "#DevOps"],
+    "reading_time": 9,
+    "uploaded_date": "2025-08-18"
+  },
+  {
+    "id": 3,
+    "cover_image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+    "title": "Top 10 JavaScript Frameworks in 2025",
+    "author": "Michael Smith",
+    "author_img": "https://i.pravatar.cc/150?img=13",
+    "hashtags": ["#JavaScript", "#React", "#Vue", "#Angular"],
+    "reading_time": 12,
+    "uploaded_date": "2025-08-15"
+  },
+  {
+    "id": 4,
+    "cover_image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&auto=format&fit=crop",
+    "title": "Blockchain Beyond Cryptocurrency",
+    "author": "Emily Carter",
+    "author_img": "https://i.pravatar.cc/150?img=14",
+    "hashtags": ["#Blockchain", "#Web3", "#Crypto"],
+    "reading_time": 8,
+    "uploaded_date": "2025-08-10"
+  },
+  {
+    "id": 5,
+    "cover_image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800",
+    "title": "Mastering UI/UX Design Principles",
+    "author": "David Johnson",
+    "author_img": "https://i.pravatar.cc/150?img=15",
+    "hashtags": ["#UIUX", "#Design", "#WebDevelopment"],
+    "reading_time": 6,
+    "uploaded_date": "2025-08-05"
+  }
+]

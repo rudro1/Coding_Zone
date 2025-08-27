@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './assets/Components/header/Header'
+import Blogs from './assets/Components/blogs/Blogs'
+import Bookmark from './assets/Components/Bookmarks/Bookmark'
 import './App.css'
 
 function App() {
@@ -8,8 +9,16 @@ function App() {
 
   return (
     <>
-     <div className="text-3xl text-amber-300">Coding zone</div>
-     <div className="btn">h</div>
+   <div className='w-11/12 mx-auto'>
+
+
+
+     <Header></Header>
+    <div className='md:flex '>
+      <Blogs></Blogs>
+    <Bookmark></Bookmark>
+    </div>
+   </div>
     </>
   )
 }
