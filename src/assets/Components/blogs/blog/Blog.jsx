@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaBookmark } from "react-icons/fa";
-const Blog = ({blog,handelerbookmark,}) => {
+const Blog = ({blog,handelerbookmark,handelbookmarkstime,itherornor,blogid}) => {
 
 
     console.log(blog);
-    const {title,cover_image,author,author_img,reading_time,uploaded_date,hashtags}=blog;
+    const {id,title,cover_image,author,author_img,reading_time,uploaded_date,hashtags}=blog;
     return (
         <div  className='space-y-4 border-b-2 border-b-blue-800 border-dashed pb-5 pt-5  pb-5'>
             <img src={cover_image} alt={`that image for ${title}`} className='w-full rounded-xl' />
@@ -18,10 +18,22 @@ const Blog = ({blog,handelerbookmark,}) => {
 </div>
 <div>
 <div className='text-[#11111199] text-md flex items-center gap-x-2'>{reading_time} min read 
-    <button onClick={()=>{
+  { ( blogid !=id || !itherornor)?  <button onClick={()=>{
 
     handelerbookmark(blog)
-}} className='text-red-800'><FaBookmark></FaBookmark></button>   </div>
+}} className=''><FaBookmark></FaBookmark></button> :
+
+
+
+ <button onClick={()=>{
+
+    handelerbookmark(blog)
+}} className="text-red-800"><FaBookmark></FaBookmark></button> 
+
+
+
+
+} </div>
 </div>
 
            </div>
@@ -34,6 +46,11 @@ const Blog = ({blog,handelerbookmark,}) => {
 }
 
 </p>
+
+<button onClick={()=>{
+
+    handelbookmarkstime(blog);
+}} className='text-[#6047EC] underline text-xl'>Mark as read</button>
         </div>
     );
 };
