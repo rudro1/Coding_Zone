@@ -1,7 +1,7 @@
 
 
 const Bookmark = ({adddata,times}) => {
-    console.log(adddata)
+    // console.log(adddata)
    
     return (
 

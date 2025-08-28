@@ -1,0 +1,56 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Vegetable Curry",
+    "recipe_image": "images/vegitable.jpg",
+    "short_description": "A rich and flavorful vegetable curry with mixed seasonal veggies and aromatic spices.",
+    "ingredients": ["200 g carrot", "100 g peas", "2 potatoes", "1 onion", "2 tomatoes"],
+    "preparing_time": "30 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Chicken Biryani",
+    "recipe_image": "images/Chicken Biryani.jpg",
+    "short_description": "Fragrant basmati rice layered with tender spiced chicken and fried onions.",
+    "ingredients": ["500 g chicken", "300 g rice", "2 onions", "2 tsp biryani masala", "50 g yogurt"],
+    "preparing_time": "60 min",
+    "calories": "600 calories"
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Pasta Alfredo",
+    "recipe_image": "images/Pasta Alfredo.jpg",
+    "short_description": "Creamy Alfredo pasta made with parmesan cheese and garlic for a rich flavor.",
+    "ingredients": ["200 g pasta", "100 ml cream", "50 g parmesan", "2 garlic cloves"],
+    "preparing_time": "25 min",
+    "calories": "450 calories"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Beef Steak",
+    "recipe_image": "images/Beef Steak.jpg",
+    "short_description": "Juicy beef steak grilled to perfection, served with mashed potatoes and veggies.",
+    "ingredients": ["250 g beef steak", "20 g butter", "1 tsp black pepper", "1 tsp salt"],
+    "preparing_time": "35 min",
+    "calories": "520 calories"
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Margherita Pizza",
+    "recipe_image": "images/Margherita Pizza.jpg",
+    "short_description": "Classic Italian pizza topped with fresh mozzarella, tomato sauce, and basil leaves.",
+    "ingredients": ["200 g flour", "100 g mozzarella", "50 g tomato sauce", "5 basil leaves"],
+    "preparing_time": "40 min",
+    "calories": "430 calories"
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Fresh Fruit Salad",
+    "recipe_image": "images/FreshFruitSalad.jpg",
+    "short_description": "A refreshing mix of seasonal fruits served with a drizzle of honey and lemon juice.",
+    "ingredients": ["100 g apple", "100 g banana", "50 g grapes", "1 tbsp honey", "1 lemon juice"],
+    "preparing_time": "10 min",
+    "calories": "180 calories"
+  }
+]
